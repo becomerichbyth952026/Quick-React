@@ -1,13 +1,60 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+.table{
+  width: 40%;
+  margin-left: 25px;
+}
+
+
+.upper_title{
+  margin-left:30px;
+}
+
+
+.main_table{
+  margin-top:200px;
+}
+
+.title-bar{
+  font-size:110%;
+  height:45px;
+  width:60%;
+  color:black;
+  background-color:white;
+  line-height:45px;
+  position:relative;
+  left:200px;
+  border-bottom:thick inset black;
+  text-align:center;
+  
+}
+
+
+.game-locations-name{
+  width:250px;
+  font-weight:bolder;
+}
+
+.game-locations-description{
+  width:350px;
+}
+
+.location-description-row{
+  height:100px;
+}
+
+
