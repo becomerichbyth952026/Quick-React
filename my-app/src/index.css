@@ -15,32 +15,53 @@ code {
 
 
 .table{
-  width: 40%;
-  margin-left: 25px;
+  width: 50%;
+  margin-left: 250px;
+  
 }
 
 
 .upper_title{
-  margin-left:30px;
+  
+
+  margin-left:230px;
+  
 }
 
 
+.fall-schedule{
+  font-family: "Courier New";
+  color:black;
+}
+
+.image{
+  font-size: 60px;
+}
+
 .main_table{
-  margin-top:200px;
+  margin-top:250px;
 }
 
 .title-bar{
-  font-size:110%;
-  height:45px;
-  width:60%;
-  color:black;
-  background-color:white;
-  line-height:45px;
-  position:relative;
-  left:200px;
-  border-bottom:thick inset black;
-  text-align:center;
+  font-size: 110%;
+  height: 40px;
+  width: 60%;
+  color: black;
+  background-color: white;
+  line-height: 45px;
+  position: relative;
+  left: 206px;
+  border-bottom: thick inset black;
+  bottom: 65px;
+    text-align: center;
   
+}
+
+
+
+.table-game{
+  position: relative;
+  margin-left:25px;
 }
 
 
@@ -55,6 +76,15 @@ code {
 
 .location-description-row{
   height:100px;
+}
+
+
+.location-name{
+  font-weight:bolder;
+}
+
+.location{
+  width: 48%;
 }
 
 
