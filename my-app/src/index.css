@@ -12,20 +12,33 @@ code {
     monospace;
 }
 
+/* CSS CODES FOR THE GAME INFO*/
 
-
-.table{
-  width: 50%;
+.table-one {
+  width: 40%;
   margin-left: 250px;
+  margin-bottom: 10px;
   
 }
 
 
-.upper_title{
-  
 
+.table-two{
+  width: 40%;
+  margin-left: 250px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+
+
+.table-games{
+  margin-left: 250px;
+}
+
+
+.upper_title{
   margin-left:230px;
-  
 }
 
 
@@ -34,15 +47,8 @@ code {
   color:black;
 }
 
-.image{
-  font-size: 60px;
-}
 
-.main_table{
-  margin-top:250px;
-}
-
-.title-bar{
+.title_bar{
   font-size: 110%;
   height: 40px;
   width: 60%;
@@ -57,16 +63,22 @@ code {
   
 }
 
+/* applies to the GameInfo */
+.main_table{
+  margin-top: 350px;
+  margin-left: 50px;
+}
+
 
 
 .table-game{
   position: relative;
-  margin-left:25px;
+  margin-right:40px
 }
 
 
-.game-locations-name{
-  width:250px;
+.game-location{
+  margin-bottom: 20px;
   font-weight:bolder;
 }
 
@@ -78,13 +90,124 @@ code {
   height:100px;
 }
 
+.location-description{
+  height:100px;
+}
+
 
 .location-name{
   font-weight:bolder;
 }
 
+
+
 .location{
-  width: 48%;
+  width: 100%;
 }
 
 
+
+.map{
+  margin-top: 30px;
+}
+
+
+.address-one{
+  position: relative;
+  right: 263px;
+}
+
+.address-two{
+  position: relative;
+  right: 280px;
+}
+
+.address-three{
+  position: relative;
+  right: 309px;
+}
+
+.address-four{
+  position: relative;
+  right: 285px;
+}
+
+.address-five{
+  position: relative;
+  right: 285px;
+}
+
+.address-six{
+  position: relative;
+  right: 285px;
+}
+
+.bottom-informations{
+  position: relative;
+  left: 250px;
+}
+
+
+/* END OF CSS CODES FOR THE GAME INFO*/
+
+
+
+
+
+
+/* CSS CODES FOR THE REGISTRATION FORM */
+
+.tilte-registration{
+    border-bottom: thick inset black;
+    font-size: 90%;
+    background-color: white;
+    width: 70%;
+    height: 40%;
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 200px;
+    top: 300px;;
+}
+
+
+.players-details{
+  width: 20%;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-weight:bolder;
+  color: black;
+}
+
+
+.form{
+  position: relative;
+  top: 350px;
+  left:230px;
+  font-size:110%;
+}
+
+
+
+#Season{
+  margin-bottom: 10px;
+}
+
+#players-name{
+  margin-bottom: 10px;
+}
+
+#address{
+  margin-bottom: 10px;
+}
+
+#city-zip{
+  margin-bottom: 10px;
+}
+
+
+#birthday-gender{
+  margin-bottom: 10px;
+}
