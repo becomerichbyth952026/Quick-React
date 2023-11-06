@@ -181,14 +181,66 @@ code {
   color: black;
 }
 
+.bottom-details-one{
+  width: 50%;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-weight:bolder;
+  color: black;
+}
+
+.bottom-details-two{
+  width: 82%;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-weight:bolder;
+  color: black;
+}
 
 .form{
   position: relative;
   top: 350px;
   left:230px;
-  font-size:110%;
+  font-size:100%;
 }
 
+.parent-garden{
+  width: 40%;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-weight:bolder;
+  color: black;
+}
+
+
+.elementary-school{
+  font-size:.9em;
+	display:inline-block;
+	margin:20px;
+}
+
+
+.form-table{
+  margin-top:20px;
+	width:30%;
+	display:inline-block; 
+}
+
+.submit-box{
+	width:20%;
+	margin-bottom:50px;
+  position: relative;
+  left: 250px;
+  margin-top: 20px;
+
+  
+}
 
 
 #Season{
@@ -211,3 +263,4 @@ code {
 #birthday-gender{
   margin-bottom: 10px;
 }
+
