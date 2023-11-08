@@ -63,7 +63,6 @@ code {
   
 }
 
-/* applies to the GameInfo */
 .main_table{
   margin-top: 350px;
   margin-left: 50px;
@@ -179,10 +178,11 @@ code {
   outline: none;
   font-weight:bolder;
   color: black;
+  margin-bottom: 15px;
 }
 
 .bottom-details-one{
-  width: 50%;
+  width: 49%;
   border: none;
   background-color: white;
   border-bottom: 1px solid black;
@@ -192,7 +192,7 @@ code {
 }
 
 .bottom-details-two{
-  width: 82%;
+  width: 81%;
   border: none;
   background-color: white;
   border-bottom: 1px solid black;
@@ -205,10 +205,10 @@ code {
   position: relative;
   top: 350px;
   left:230px;
-  font-size:100%;
+  font-size:80%;
 }
 
-.parent-garden{
+.parent-guardian{
   width: 40%;
   border: none;
   background-color: white;
@@ -217,6 +217,7 @@ code {
   font-weight:bolder;
   color: black;
 }
+
 
 
 .elementary-school{
@@ -242,25 +243,97 @@ code {
   
 }
 
-
+/* SEASON */
 #Season{
   margin-bottom: 10px;
 }
 
+/* PLAYERS NAME */
 #players-name{
   margin-bottom: 10px;
 }
 
+/* STREET ADDRESS */
 #address{
   margin-bottom: 10px;
 }
 
+/* CITY & ZIP CODE */
 #city-zip{
   margin-bottom: 10px;
 }
 
-
+/* BDAY & GENDER */
 #birthday-gender{
   margin-bottom: 10px;
 }
 
+#male{
+  margin-right:10px;
+}
+
+#female{
+  margin-right:10px;
+}
+
+.female{
+  margin-right:5px;
+}
+
+.gender{
+  margin-right:10px;
+}
+
+
+/* GRADE MARGINS */
+.grade{
+  margin-bottom:10px;
+}
+#grade{
+ margin-right:10px;
+}
+#pre-school{
+ margin-right:10px;
+}
+#grade-one{
+ margin-right:10px;
+}
+#grade-two{
+ margin-right:10px;
+}#grade-three{
+ margin-right:10px;
+}#grade-four{
+ margin-right:10px;
+}#grade-five{
+ margin-right:10px;
+}
+
+.male{
+  margin-right: 5px;
+}
+
+.first{
+  margin-right: 5px;
+}
+
+.second{
+  margin-right: 5px;
+}
+
+.third{
+  margin-right: 5px;
+}
+
+.fourth{
+  margin-right: 5px;
+}
+
+.fifth{
+  margin-right: 5px;
+}
+
+
+/* TABLE POSITION PLAYER */
+#position{
+  font-weight:bolder;
+}
